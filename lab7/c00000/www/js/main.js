@@ -106,7 +106,7 @@ this.apiKey=apiKey;
     }
 }
 
-document.weatherApp = new weather("7ded80d91f2b280ec979100cc8bbba94", "#weather-results-container");
+document.weatherApp = new weather("4f6f1d3d5d3850368a7ee2e46c912b1b", "#weather-results-container");
 
 document.querySelector("#checkButton").addEventListener("click", function() {
     const query = document.querySelector("#locationInput").value;
